@@ -1,0 +1,13 @@
+div{
+    background-color: rgba(0,123,255,.25);
+    border: 2px solid #6892af;
+}
+h3{
+ margin-left:40%;
+ color:blue;
+ font: outline;
+ font-family: '-webkit-pictograph'
+}
+.alert {
+    margin-bottom:0; 
+}

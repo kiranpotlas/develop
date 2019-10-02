@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+  <a class="navbar-brand  badge badge-info" routerLink="Home">Home</a>
+   <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      
+      <li class="nav-item">
+        <a class="nav-link" routerLink="user">User <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="employee">Employee</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="product">Products</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" routerLink="/employees" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Registration
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" routerLink="/employees/employee">Register</a>
+          <a class="dropdown-item" routerLink="/employees/details">login</a>
+          <a class="dropdown-item" routerLink="/employees/workh">feedback</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
